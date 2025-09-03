@@ -165,7 +165,7 @@
 
       <header>
     <div class="logo">
-      <img src="logo.PNG" alt="Logo Padaria Romeu & Julieta" width="5000">
+      <img src="img/logo.png" alt="Logo Padaria Romeu & Julieta" width="5000">
       <strong>Padaria Romeu & Julieta</strong>
     </div>
     <nav>
@@ -177,7 +177,7 @@
   </header>
 
   <section class="banner">
-    <img src="padaria.png" alt="Fachada da padaria Romeu & Julieta">
+    <img src="img/padaria.png" alt="Fachada da padaria Romeu & Julieta">
     <div class="info">
       <h1>Padaria Romeu & Julieta</h1>
       <p>
@@ -190,31 +190,31 @@
 
   <section id="produtos" class="produtos">
     <div class="produto">
-      <img src="pão.png" alt="Pão de sal">
+      <img src="img/pão.png" alt="Pão de sal">
       <h3>Pão de sal</h3>
       <p>10 por R$ 5,00</p>
     </div>
 
     <div class="produto">
-      <img src="queijo.PNG" alt="Queijo Minas">
+      <img src="img/queijo.png" alt="Queijo Minas">
       <h3>Queijo Minas</h3>
       <p>R$ 24,99</p>
     </div>
 
     <div class="produto">
-      <img src="manteiga.png" alt="Manteiga Qualy">
+      <img src="img/manteiga.png" alt="Manteiga Qualy">
       <h3>Manteiga Qualy</h3>
       <p>R$ 7,99</p>
     </div>
 
     <div class="produto">
-      <img src="goiabada.png" alt="Goiabada">
+      <img src="img/goiabada.png" alt="Goiabada">
       <h3>Goiabada</h3>
       <p>R$ 14,50</p>
     </div>
 
     <div class="produto">
-      <img src="leite.png" alt="Leite">
+      <img src="img/leite.png" alt="Leite">
       <h3>Leite Serramar</h3>
       <p>R$ 7,69</p>
     </div>
@@ -236,7 +236,7 @@
         <span style="position:absolute; top:10px; left:10px; background:#f7c948; color:#000; padding:6px 10px; border-radius:50%; font-size:0.8em; font-weight:bold;">
           PRODUTO NOVO
         </span>
-        <img src="bolo de limão.webp" alt="Bolo de limão" style="width:100%; border-radius:8px; margin-bottom:15px;">
+        <img src="img/bolo de limão.webp" alt="Bolo de limão" style="width:100%; border-radius:8px; margin-bottom:15px;">
         <h3 style="color:#b22222;">Bolo de limão</h3>
         <p>Massa leve e fofinha com toque cítrico irresistível, coberta com uma delicada calda de limão. Perfeito para acompanhar um café.</p>
         <a href="#" class="btn" style="background:#b22222; color:white; padding:10px 18px; border-radius:5px; display:inline-block; text-decoration:none; margin-top:10px;">Compre agora</a>
@@ -244,7 +244,7 @@
 
       <!-- Mortadela -->
       <div style="background:white; border-radius:10px; box-shadow:0 3px 6px rgba(0,0,0,0.1); padding:20px;">
-        <img src="mortadela.webp" alt="Mortadela fatiada" style="width:100%; border-radius:8px; margin-bottom:15px;">
+        <img src="img/mortadela.webp" alt="Mortadela fatiada" style="width:100%; border-radius:8px; margin-bottom:15px;">
         <h3 style="color:#b22222;">Mortadela R$2,50 / 50g</h3>
         <p>Finas e saborosas fatias de mortadela, com aroma marcante e textura macia. Ideal para petiscos, tábuas frias ou sanduíches.</p>
         <a href="#" class="btn" style="background:#b22222; color:white; padding:10px 18px; border-radius:5px; display:inline-block; text-decoration:none; margin-top:10px;">Compre agora</a>
@@ -255,7 +255,7 @@
         <span style="position:absolute; top:10px; left:10px; background:#f7c948; color:#000; padding:6px 10px; border-radius:50%; font-size:0.8em; font-weight:bold;">
           OFERTA DO DIA
         </span>
-        <img src="coxinha.webp" alt="Coxinha" style="width:100%; border-radius:8px; margin-bottom:15px;">
+        <img src="img/coxinha.webp" alt="Coxinha" style="width:100%; border-radius:8px; margin-bottom:15px;">
         <h3 style="color:#b22222;">Coxinha</h3>
         <p>Casquinha crocante por fora, recheio cremoso de frango bem temperado por dentro. Um clássico brasileiro que nunca sai de moda.</p>
         <a href="#" class="btn" style="background:#b22222; color:white; padding:10px 18px; border-radius:5px; display:inline-block; text-decoration:none; margin-top:10px;">Compre agora</a>
