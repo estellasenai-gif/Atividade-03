@@ -6,19 +6,22 @@ use Illuminate\Http\Request;
 
 class PrincipalController extends Controller
 {
-    public function bakery()
+    public function contato()
     {
-        return view('bakery');
+        // apenas exibe o formulário
+        return view('contato');
     }
 
-    public function sobremesa()
+    public function enviarContato(Request $request)
     {
-        return view('sobremesa');
-    }
+        // validação simples
+        $dados = $request->validate([
+            'nome' => 'required|string|min:2',
+            'email' => 'required|email',
+            'telefone' => 'required|string',
+        ]);
 
-    // Nova rota "Sobre Nós"
-    public function sobre()
-    {
-        return view('sobre');
+        // envia os dados para a view
+        return view('contato-recebido', $dados);
     }
 }
